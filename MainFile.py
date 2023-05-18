@@ -34,8 +34,6 @@ openai.api_key = API_key  #os.environ["OPENAI_API_KEY"]
 
 # Define the prompt for the chatbot
 # Address_given = "RING MARATHAHALLI NEAR KLM FASHION MALL 96 OUTTER  /VARTHUR ROAD OUTTER"# 
-# Address_given = "Address: A-901 August grand sarjapur road bellandur near wipro office bangalore 560035 "
-# Address_given = "A7-103 elita promenade J.P. nagar 7th phase A7-103 elita promenade J.P. nagar 7th phase bangalore 560078"
 #prompt = "Given the following address, please add commas in the appropriate places: Address: A7-103 elita promenade J.P. nagar 7th phase A7-103 elita promenade J.P. nagar 7th phase bangalore 560078 " # No 77 Ramachandrappa Building 5th B Cross Near Mandha Bangalore North Peenya Small Industries Bangalore Ba"
 
 prompt = "Given the following address add commas:Address: "+Address_given #RING MARATHAHALLI NEAR KLM FASHION MALL 96 OUTTER  /VARTHUR ROAD OUTTER" #and then parse this Indian address and label with appropriate tokens
