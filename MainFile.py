@@ -93,7 +93,7 @@ col1.write(AddressWithCommas)
 col2.subheader("Parsed Address with tokens")
 
 if address_dict.__len__()==0: 
-	st.write("Cant Parse the address")
+	col2.write("Cant Parse the address")
 else: 
 	for keys, values in address_dict.items():
 		if keys == 'Parsed Address': 
