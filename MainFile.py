@@ -53,7 +53,8 @@ response = openai.Completion.create(
 # Print the response from the chatbot
 # print(response.choices[0].text.strip())
 
-AddressWithCommas = response.choices[0].text.strip()
+AddressWithCommas_ = response.choices[0].text.split("\n")
+AddressWithCommas = AddressWithCommas_[len(AddressWithCommas_)-1]
 
 
 prompt = "Given the following Indian address parse it:Address: "+AddressWithCommas
